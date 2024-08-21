@@ -56,7 +56,7 @@ else{
                <h1>COURSE: $c_nam </h1>
            </head>
    _END;
-    //Displays the fist the outcome and pI for this specific course
+    //Displays the outcome and pI for this specific course
    echo <<< _END
        <br><br>
        <div class ="table_users:>
@@ -90,7 +90,7 @@ else{
        </div>
        <br><br>
    _END;
-   //Create table to display the Staticis for the course
+   //Create table to display the stats for the course
    echo <<< _END
        <br><br>
        <div class ="table_users:>
@@ -122,7 +122,7 @@ else{
         </div>
         <br><br>
    _END;
-   //Creates table that shows the assessments of that
+   //Creates table that shows the assessments 
    echo <<< _END
        <div class ="table_users:>
        <div class="header" > <h2>Class Assessment<h2> </div>
